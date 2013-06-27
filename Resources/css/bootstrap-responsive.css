@@ -949,7 +949,7 @@
   }
 }
 
-@media (max-width: 1920px) {
+@media {
   body {
     padding-top: 0;
   }
