@@ -14,7 +14,6 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <ul class="nav">
@@ -45,11 +44,11 @@
                           <li><a tabindex="-1" href="#">Spell Check</a></li>
                         </ul>
                     </li>
-                    <li><a id="drawertrigger" href="">Sources</a></li>
+                    <li><a id="drawertrigger">Sources</a></li>
                 </ul>
             </div>
         </div>
-        <div id="sidr">
+        <div id="eduslider" class="nexpanded">
           <!-- Your content -->
           <ul>
             <li><a href="#">List 1</a></li>
@@ -57,7 +56,7 @@
             <li><a href="#">List 3</a></li>
           </ul>
         </div>
-        <div class="container">
+        <div class="container nexpanded" id="body">
         <pre id="editor">function foo(items) {
         var i;
         for (i = 0; i &lt; items.length; i++) {
@@ -65,13 +64,6 @@
         }
         }</pre>
         </div>
-
-        
-    
-
-
-
-
         <script src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/ace/ace.js"></script>
         <script src="js/jquery-1.10.1.js"></script>
