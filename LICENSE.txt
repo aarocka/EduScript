@@ -1,1 +1,1 @@
-This is an early alpha not for release. This is only for TSA judges. Property of aarocka (Aaron Kolker), djmbk1 (Matt Bedenko), and tmas (Thomas Lord).
+Place your license text here.  This file will be incorporated with your app at package time.
