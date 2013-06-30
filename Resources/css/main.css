@@ -19,13 +19,13 @@
 #eduslider {
 	background-repeat: repeat-y;
 	background: #272822; /* Old browsers */
-	background: -moz-linear-gradient(left, #272822 1%, #2f3129 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#272822), color-stop(100%,#2f3129)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(left, #272822 1%,#2f3129 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(left, #272822 1%,#2f3129 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(left, #272822 1%,#2f3129 100%); /* IE10+ */
-	background: linear-gradient(to right, #272822 1%,#2f3129 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272822', endColorstr='#2f3129',GradientType=1 ); /* IE6-9 */
+	background: -moz-linear-gradient(left, #2f3129 1%, #272822 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#2f3129), color-stop(100%,#272822)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #2f3129 1%,#272822 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #2f3129 1%,#272822 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #2f3129 1%,#272822 100%); /* IE10+ */
+	background: linear-gradient(to right, #2f3129 1%,#272822 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f3129', endColorstr='#272822',GradientType=1 ); /* IE6-9 */
 	background-repeat: repeat-y;
 	width: 100px;
 	height: 100%;
