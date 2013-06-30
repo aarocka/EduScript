@@ -28,12 +28,27 @@
 	width: 200px;
 }
 #body.expanded {
-	position: relative;
+	position: absolute;
 	left: 100px;
+	top: 50px;
 }
-#body.nexpanded{ 
-	position: relative;
+#body.nexpanded { 
+	top: 50px;
+	position: absolute;
 	left: 0px;
 	width: 100%;
 	height: 100%;
+}
+#drawertrigger {
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+pre#editor {
+	position: absolute;
+	top: 0px;
 }
