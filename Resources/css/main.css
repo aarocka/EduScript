@@ -7,37 +7,52 @@
 #editor { 
 	z-index: -1;
     margin: 0;
-    position: absolute;
-    top: 50px;
     bottom: 0;
     left: 0;
     right: 0;
+    height: 100%;
 }
 #body {
 	width: 100%;
 	height: 100%;
 }
+#eduslider {
+	background-repeat: repeat-y;
+	background: #272822; /* Old browsers */
+	background: -moz-linear-gradient(left, #272822 1%, #2f3129 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#272822), color-stop(100%,#2f3129)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #272822 1%,#2f3129 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #272822 1%,#2f3129 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #272822 1%,#2f3129 100%); /* IE10+ */
+	background: linear-gradient(to right, #272822 1%,#2f3129 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272822', endColorstr='#2f3129',GradientType=1 ); /* IE6-9 */
+	background-repeat: repeat-y;
+	width: 100px;
+	height: 100%;
+	top: 0px;
+}
 #eduslider.nexpanded {
 	position: relative;
 	left: -200px;
-	width: 200px;
+	width: 100px;
 }
 #eduslide.expanded {
 	position: relative;
 	left: 50px !important;
-	width: 200px;
+	width: 100px;
 }
 #body.expanded {
 	position: absolute;
 	left: 100px;
-	top: 50px;
+	top: 0px;
+	margin-top: 50px;
 }
 #body.nexpanded { 
-	top: 50px;
+	top: 0px;
 	position: absolute;
 	left: 0px;
 	width: 100%;
-	height: 100%;
+	margin-top: 50px;
 }
 #drawertrigger {
 	cursor: pointer;
@@ -48,7 +63,10 @@
 	-ms-user-select: none;
 	user-select: none;
 }
-pre#editor {
-	position: absolute;
-	top: 0px;
+body {
+	background: #272822 !important;
+}
+.navbar-fixed-top {
+	height: auto !important;
+	margin-bottom: 0px;
 }
